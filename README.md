@@ -15,6 +15,8 @@ run `python dataclean.py`  to generate balanced data after cleaning
 
 ## The latest version: three_models.py
 
+run `python three_models.py`
+
 RNN, LSTM, GRU, LSTM with GloVe, GRU with GloVe
 
 ### Download GloVe 
