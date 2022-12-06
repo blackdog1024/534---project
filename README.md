@@ -20,12 +20,13 @@ run `python three_models.py`
 RNN, LSTM, GRU, LSTM with GloVe, GRU with GloVe
 
 ### Download GloVe 
-
+```
 !wget http://nlp.stanford.edu/data/glove.6B.zip
 
 !unzip glove.6B.zip
 
 !ls -lat
+```
 
 ### Select models
  
