@@ -17,7 +17,7 @@ run `python dataclean.py`  to generate balanced data after cleaning
 
 RNN, LSTM, GRU, LSTM with GloVe, GRU with GloVe
 
-### download GloVe 
+### Download GloVe 
 
 !wget http://nlp.stanford.edu/data/glove.6B.zip
 
@@ -25,7 +25,7 @@ RNN, LSTM, GRU, LSTM with GloVe, GRU with GloVe
 
 !ls -lat
 
-### select models
+### Select models
  
 use `MODEL = 'GRU'`  to select a model (RNN/LSTM/GRU)
 
