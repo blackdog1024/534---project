@@ -244,7 +244,7 @@ def vectorize_val(batch):
     return torch.tensor(X), torch.tensor(Y)
 
 
-Test = pd.read_csv('new_val.csv')
+Test = pd.read_csv('./data/new_val.csv')
 Test = Test[['less_toxic', 'more_toxic']]
 Test = Test.dropna(subset=['less_toxic', 'more_toxic'])
 test_dataset = np.array(Test)
